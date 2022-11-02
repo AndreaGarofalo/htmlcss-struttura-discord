@@ -89,7 +89,7 @@ a {
     border: 2px dashed #000;
 }
 
-/* main */
+/* page main */
 
 main {
     min-height: 450px;
@@ -126,4 +126,29 @@ main {
     width: 100%;
     border: 2px dashed #000;
     margin: 20px 0;
+}
+
+/* page footer */
+
+footer {
+    background-color: #23272a;
+    min-height: 500px;
+}
+
+.left-footer {
+    width: calc(100% / 3);
+    background-color: #f08080;
+    min-height: 500px;
+    border: 2px dashed #000;
+}
+
+.right-footer {
+    width: calc(100% / 3 * 2);
+    min-height: 500px;
+    background-color: #20b2aa;
+}
+
+.right-footer-elements {
+    width: calc(100% / 4);
+    border: 2px dashed #ffffff;
 }
