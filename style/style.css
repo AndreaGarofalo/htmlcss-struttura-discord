@@ -53,13 +53,13 @@ header {
 /* header nav bar */
 
 .nav-links {
-    width: 50%;
+    flex-basis: 50%;
     background-color: #daa520;
     border: 2px dashed #000;
 }
 
 .nav-border {
-    width: 25%;
+    flex-basis: 25%;
     background-color: #daa520;
     border: 2px dashed #000;
 }
@@ -84,7 +84,7 @@ a {
 
 .central-element {
     background-color: #ee82ee;
-    width: 45%;
+    flex-basis: 45%;
     margin: 30px;
     border: 2px dashed #000;
 }
@@ -101,12 +101,12 @@ main {
     margin: 30px 0;
 }    
 .small-element {
-    width: 40%;
+    flex-basis: 40%;
     background-color: #ffc0cb;
 }
 
 .big-element {
-    width: 60%;
+    flex-basis: 60%;
     background-color: #1e90ff;
 }
 
@@ -123,7 +123,7 @@ main {
 .main-footer-element {
     min-height: 700px;
     background-color: #228b22;
-    width: 100%;
+    flex-basis: 100%;
     border: 2px dashed #000;
     margin: 20px 0;
 }
@@ -136,20 +136,20 @@ footer {
 }
 
 .left-footer {
-    width: calc(100% / 3);
+    flex-basis: calc(100% / 3);
     background-color: #f08080;
     min-height: 500px;
     border: 2px dashed #000;
 }
 
 .right-footer {
-    width: calc(100% / 3 * 2);
+    flex-basis: calc(100% / 3 * 2);
     min-height: 500px;
     background-color: #20b2aa;
 }
 
 .right-footer-elements {
-    width: calc(100% / 4);
+    flex-basis: calc(100% / 4);
     border: 2px dashed #ffffff;
 }
 /* footer ending */
@@ -158,13 +158,13 @@ footer {
     min-height: 75px;
     background-color: #7fffd4;
     margin-bottom: -20px;
-    width: 100%;
+    flex-basis: 100%;
 }
 
 .footer-ending-layout {
     align-items: center;
     justify-content:space-between ;
-    width: 100%;
+    flex-basis: 100%;
 }
 
 .ending-logo-button {
