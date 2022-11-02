@@ -27,7 +27,6 @@ body {
 }
 
 div {
-    border: 2px dashed #000;
     padding: 10px;
 }
 
@@ -42,22 +41,25 @@ div {
     flex-direction: row;
 }
 
-/* header */
+header {
+    background-color: #add8e6;
+    min-height: 400px;
+}
+
+/* header nav bar */
 
 .nav-links {
     width: 50%;
     background-color: #daa520;
+    border: 2px dashed #000;
 }
 
 .nav-border {
     width: 25%;
     background-color: #daa520;
+    border: 2px dashed #000;
 }
 
-header {
-    background-color: #add8e6;
-    min-height: 600px;
-}
 
 li {
     list-style-type: none;
@@ -67,4 +69,18 @@ a {
     color: #000;
     text-decoration: none;
     padding: 0 5px;
+}
+
+/* header foot */
+
+.h-foot {
+    min-height: 400px;
+    background-color: #00008b;
+}
+
+.central-element {
+    background-color: #ee82ee;
+    width: 45%;
+    margin: 30px;
+    border: 2px dashed #000;
 }
