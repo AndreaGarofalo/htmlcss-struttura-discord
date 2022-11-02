@@ -157,7 +157,6 @@ footer {
 .footer-ending {
     min-height: 75px;
     background-color: #7fffd4;
-    margin-bottom: -20px;
     flex-basis: 100%;
 }
 
@@ -171,4 +170,8 @@ footer {
     background-color: #ffb6af;
     padding: 5px;
     border: 2px dashed #000;
+}
+
+.pb-0{
+    padding-bottom:0
 }
