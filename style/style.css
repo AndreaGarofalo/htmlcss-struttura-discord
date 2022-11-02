@@ -20,6 +20,10 @@
     justify-content: center;
 }
 
+.order-1 {
+    order: 1;
+}
+
 /* general */
 
 body {
@@ -83,4 +87,25 @@ a {
     width: 45%;
     margin: 30px;
     border: 2px dashed #000;
+}
+
+/* main */
+
+main {
+    min-height: 450px;
+    margin: 30px;
+}
+
+.main-element {
+    min-height: 400px;
+    border: 2px dashed #000;
+}    
+.small-element {
+    width: 40%;
+    background-color: #ffc0cb;
+}
+
+.big-element {
+    width: 60%;
+    background-color: #1e90ff;
 }
